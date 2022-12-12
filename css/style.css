@@ -1,0 +1,569 @@
+/*Écrans de 1199px et moins*/
+
+ @media screen and (max-width:1199px){
+    /* Ajustements pour le body */
+    body{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 !important;
+    }
+}
+
+/*Écrans de 890px et moins*/
+
+ @media screen and (max-width:890px){
+    /* Ajustements pour les titres h1 */
+    h1{
+        font-size: 60px !important;
+    }
+}
+
+/*Écrans de 840px et moins*/
+
+ @media screen and (max-width:840px){
+    /* Ajustements pour la page invention du hockey */
+    .content-invention{
+        flex-direction: column !important;
+    }
+    .text-invention{
+        text-align: justify;
+        padding-right: 0 !important;
+    }
+    /* Ajustements pour la page équipement */
+    .content-equipement{
+        flex-direction: column !important;
+    }
+    .text-equipement{
+        text-align: justify;
+        padding-right: 0 !important;
+    }
+    /* Ajustements pour la page règlements */
+    .content-regles{
+        flex-direction: column !important;
+    }
+    .text-regles{
+        text-align: justify;
+        padding-right: 0 !important;
+    }
+    /* Ajustements pour la page faq */
+    .content-faq{
+        flex-direction: column !important;
+    }
+    .text-faq{
+        text-align: justify;
+        padding-right: 0 !important;
+    }
+}
+
+/*Écrans de 600px et moins*/
+
+ @media screen and (max-width:600px){
+    /* Ajustements pour le nav de haut de page */
+    .menu-top a{
+        padding: 10px !important;
+    }
+    /* Ajustements pour le nav de bas de page */
+    .menu-footer a {
+        padding: 10px !important;
+    }
+    /* Ajustements pour la page invention du hockey */
+    .text-invention{
+        width: 100% !important;
+    }
+    .img-invention{
+        width: 100% !important;
+    }
+    /* Ajustements pour la page accueil */
+    .p-accueil{
+        width: 100% !important;
+        text-align: justify !important;
+    }
+    /* Ajustements pour la page équipement */
+    .text-equipement{
+        width: 100% !important;
+        line-height: 50px !important;
+    }
+    .img-equipement{
+        width: 100% !important;
+    }
+    .iframe-border{
+        width: 100% !important;
+    }
+    /* Ajustements pour la page règlements */
+    .text-regles{
+        width: 100% !important;
+    }
+    .img-regles{
+        width: 100% !important;
+    }
+    /* Ajustements pour la page ligues professionnelles */
+    .text-ligues{
+        width: 100% !important;
+        text-align: justify;
+    }
+    /* Ajustements pour la page sites d'intérêts */
+    .list-sites {
+        width: 100% !important;
+        line-height: 50px !important;
+    }
+    /* Ajustements pour la page à propos */
+    .text-apropos{
+        width: 100% !important;
+    }
+    .img-apropos{
+        width: 100% !important;
+    }
+    /* Ajustements pour la page contact */
+    .text-contact{
+        width: 100% !important;
+    }
+    .img-contact{
+        width: 100% !important;
+    }
+    /* Ajustements pour la page faq */
+    .text-faq{
+        width: 100% !important;
+    }
+    .img-faq{
+        width: 100% !important;
+    }
+    /* Ajustements pour la page plan du site */
+    .list-plan{
+        width: 100% !important;
+        line-height: 50px !important;
+    }
+}
+
+/*Écrans de 480px et moins*/
+@media screen and (max-width:480px){
+    /* Ajustements pour les titres h1 */
+    h1{
+        font-size: 30px !important;
+    }
+}
+
+/* CSS pour les choses qui se répètent sur plusieurs pages */
+
+h1 {
+    font-size: 75pt;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.banner-top {
+    padding-top: 10px;
+}
+
+.banner-img {
+    height: 400px;
+    width: 99.5%;
+    border: 3px solid whitesmoke;
+}
+
+
+body {
+    background-color: gray;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Georgia;
+}
+
+.body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-top {
+    color: whitesmoke;
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+.menu-top a {
+    padding: 20px;
+}
+
+footer {
+    margin-top: auto;
+    padding-top: 5px;
+}
+
+.menu-footer {
+    color: whitesmoke;
+    background-color: black;
+    height: auto;
+    max-width: 100%;
+    padding: 25px;
+    border: 3px solid whitesmoke;
+    text-align: center;
+}
+
+.menu-footer a {
+    padding: 25px;
+}
+
+.p-footer {
+    margin-top: 10px;
+    border: 3px solid whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+li, a {
+    list-style-type: none;
+    text-align: center;
+    font-size: 16pt;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(24, 8, 165);
+}
+
+
+/* CSS pour la page accueil */
+
+.p-accueil {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.p-audio {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sound-ambience {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* CSS pour la page invention */
+
+/* Formattage de la page */
+.content-invention {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.text-invention {
+    width: 50%;
+    padding-right: 30px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.img-invention {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.img-james {
+    width: 99%;
+    border: 3px solid whitesmoke;
+}
+
+
+/* CSS pour la page plan */
+
+/* Formattage de la page */
+.list-plan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    line-height: 80px;
+}
+
+.list-left {
+    width: 50%;
+    height: auto;
+}
+
+.list-right {
+    width: 50%;
+    height: auto;
+}
+
+.img-plan {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.img-planbas {
+    width: 99.5%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
+
+
+/* CSS pour la page equipement */
+
+/* Formattage de la page */
+.content-equipement {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-equipement {
+    width: 50%;
+    line-height: 80px;
+}
+
+.img-equipement {
+    width: 50%;
+}
+
+.img-equipement2 {
+    width: 99%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
+
+.iframe-equipement {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.iframe-border {
+    border: 1px solid black;
+}
+
+.titre-equipement {
+    width: 100%;
+}
+
+.p-iframe-equipement {
+    padding-top: 50px;
+}
+
+/* CSS page ligues */
+
+/* Formattage de la page */
+.content-ligues {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.titre-ligues {
+    width: 100%;
+    height: auto;
+}
+
+.text-ligues {
+  width: 100%;
+  height: auto;
+  line-height: 30px;
+}
+
+.img-lnh {
+    width: 99.5%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
+
+.img-europe {
+    width: 99.5%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
+
+/* CSS page Sites d'intérêt */
+
+/* Formattage de la page */
+.content-sites {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.list-sites {
+    width: 100%;
+    height: auto;
+    line-height: 80px;
+}
+
+.img-sites {
+    width: 99.5%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
+
+/* CSS page À Propos */
+
+/* Formattage de la page */
+.content-apropos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-apropos {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.img-apropos {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-moi {
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+}
+
+/* CSS page contact */
+
+/* Formattage de la page */
+.content-contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bouton-contact {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.p-contact {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.img-contact {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-thumb {
+    border: 3px solid whitesmoke;
+}
+
+/* CSS page FAQ */
+
+/* Formattage de la page */
+.content-faq {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+}
+
+.text-faq {
+    width: 50%;
+    line-height: 30px;
+}
+
+.img-faq {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-faq2 {
+    width: 99%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
+
+/* CSS page Règles */
+
+/* Formattage de la page */
+.content-regles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: whitesmoke;
+    text-align: left;
+    font-size: 18px;
+}
+
+.text-regles {
+    width: 50%;
+    line-height: 30px;
+}
+
+.img-regles {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.img-regles2 {
+    width: 99%;
+    height: auto;
+    border: 3px solid whitesmoke;
+}
